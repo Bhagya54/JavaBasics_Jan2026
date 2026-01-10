@@ -6,9 +6,16 @@ public class RemainderDemo {
 the first number by the second number.
  * 
  */
+	
+	
 	public static void main(String[] args) {
+		int a=100;
+		int b=20;
+		int remainder=a%b;
+		System.out.println();
 		
-
+		System.out.println("Remainder is: " + remainder);
+		
 	}
 
 }
