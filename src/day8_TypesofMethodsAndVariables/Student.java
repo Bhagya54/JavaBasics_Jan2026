@@ -13,9 +13,11 @@ public class Student {
 	 * 
 	 * Types of Methods:
 	 * 	1.Instance - can be accessed through object creation
+	 * can access instance/static/local variables
 	 *  2.Static - You don't need object creation for accessing
 	 * 		static methods
 	 * 		className.methodName()
+	 * 	can access only static variables
 	 * 
 	 */
 	public String name;//instance variable
@@ -26,14 +28,17 @@ public class Student {
 	public static String schoolName;//static variable
 	
 	public void a() {
+		int num=123;
 		System.out.println(name);
 		System.out.println(schoolName);
+		System.out.println(num);
 		
 	}
 	
 	public void b() {
 		//System.out.println(abc);
 		System.out.println(id);
+		//System.out.println(num);
 	}
 	
 	public void attendSession() {
