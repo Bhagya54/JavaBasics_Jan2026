@@ -19,7 +19,6 @@ public class Student {
 		Student s2 = new Student(56, "Saira");
 		System.out.println("Id of Student 2: " + s2.rollNo);
 		System.out.println("name of Student 2: " + s2.name);
-
 	}
 
 }

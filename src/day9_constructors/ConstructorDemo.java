@@ -32,6 +32,8 @@ public class ConstructorDemo {
 	public static void main(String[] args) {
     ConstructorDemo cd1 = new ConstructorDemo(12);
     
+    ConstructorDemo cd3 = new ConstructorDemo();
+    
     ConstructorDemo cd2 = new ConstructorDemo("selenium");
     System.out.println(cd1.num);
     System.out.println("Parameterized Constructor: " +cd2.name);
