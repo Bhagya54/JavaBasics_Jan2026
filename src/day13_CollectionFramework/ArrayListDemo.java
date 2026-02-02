@@ -43,6 +43,10 @@ public class ArrayListDemo {
 		
 		System.out.println(al.indexOf(23));	
 		
+		System.out.println("Using enhanced for loop");
+		for (Integer a : al) {
+			System.out.println(a);
+		}
 	}
 
 }
