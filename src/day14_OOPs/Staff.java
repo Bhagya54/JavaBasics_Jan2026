@@ -9,5 +9,9 @@ public class Staff extends Persons{
 		System.out.println("Staff calculates Attendance");
 	}
 	
+	public void lunchTime() {
+		System.out.println("lunch time for 1.5 hr");
+	}
+	
 	
 }

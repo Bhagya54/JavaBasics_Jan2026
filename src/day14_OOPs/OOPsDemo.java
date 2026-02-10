@@ -9,7 +9,8 @@ public class OOPsDemo {
 		 * 4 pillars
 		 * 1.Inheritance
 		 * 2.Polymorphism
-		 * 3.Abstraction
+		 * 3.Abstraction - hiding the implementation
+		 * 	
 		 * 4.Encapsulation
 		 * 
 		 * Inheritance:
@@ -34,8 +35,28 @@ public class OOPsDemo {
 		 * processSalary()
 		 * calculateAttendance()
 		 * 
+		 * Polymorphism:
+		 * Poly - many
+		 * morphism - forms
+		 * 2 ways:
+		 * 1.Method Overloading - Compile time polymorphism -
+		 * >implementation within the class
+		 * >we have multiple methods with same method name with difference in
+		 * 		> number of parameters we pass to the methods
+		 * 		> type of parameters we pass to the methods
+		 * 2.Method Overriding - Runtime poly..
+		 * when child class has same method signature but difference in method implementaion 
+		 * then we call it as child class method is overriding the method 
+		 * that is present in its parent class
 		 * 
 		 * 
+		 * compilation .java > .class(bytecode) > running(jvm executed bytecode > result)
+		 
+		 * Abstraction - hiding the implementation
+		 * 2 ways
+		 * 1.Interface
+		 * 2.Abstract class
+		 *
 		 */
 
 	}
