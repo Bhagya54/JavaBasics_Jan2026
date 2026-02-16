@@ -1,4 +1,4 @@
-package day14_OOPs;
+package day14_OOPs_Inheritance_Polymorphism;
 
 public class Teacher extends Persons {
 	public void conductSession() {

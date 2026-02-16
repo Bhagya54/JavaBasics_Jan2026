@@ -1,4 +1,4 @@
-package day14_OOPs;
+package day14_OOPs_Inheritance_Polymorphism;
 
 public class Staff extends Persons{
 	public void processSalary() {

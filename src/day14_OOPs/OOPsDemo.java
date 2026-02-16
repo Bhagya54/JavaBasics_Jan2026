@@ -54,9 +54,17 @@ public class OOPsDemo {
 		 
 		 * Abstraction - hiding the implementation
 		 * 2 ways
-		 * 1.Interface
-		 * 2.Abstract class
-		 *
+		 * 1.Interface -  100 % abstraction
+		 * 2.Abstract class - 0% - 100% abstraction
+		 * Inheritance+abstraction
+		 * 
+		 * Encapsulation: hiding the data(variable)
+		 * Access Modifiers:
+		 * 1. private - access will be only within the class
+		 * 2. protected - access with in the package and outside the package as well
+		 * when you have an inheritance relationship.
+		 * 3. default - access within the package
+		 * 4. public - access through your project
 		 */
 
 	}

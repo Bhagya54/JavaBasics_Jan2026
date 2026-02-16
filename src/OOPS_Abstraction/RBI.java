@@ -1,4 +1,4 @@
-package day14_OOPs;
+package OOPS_Abstraction;
 
 public interface RBI {
 //every method will not have the implementation - abstract methods

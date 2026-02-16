@@ -1,4 +1,4 @@
-package day14_OOPs;
+package OOPS_Abstraction;
 
 public class MainClass_Interface {
 
@@ -26,6 +26,10 @@ public class MainClass_Interface {
 		 * WebDriver driver = new ChromeDriver();
 		 * driver = new FirefoxDriver();
 		 */
+		
+		AbstractDemo a1 = new AbstractDemoChildClass();
+		a1.m1();
+		a1.m2();
 
 	}
 
